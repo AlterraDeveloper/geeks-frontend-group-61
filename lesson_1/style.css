@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #222;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  width: 50%;
+  height: 80%;
+  background-color: #555;
+  border: 2px solid yellow;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.row img {
+    width: 50px;
+    height: 50px;
+}
+
+.app button {
+    border-radius: 50%;
+    background-color: #0606a5;
+    border: 10px solid blue;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.app button img {
+    width: 250px;
+    height: 250px;
+}
+
+.row span {
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}
+
+.app button:disabled {
+    cursor: not-allowed;
+    filter: grayscale(1);
+}
