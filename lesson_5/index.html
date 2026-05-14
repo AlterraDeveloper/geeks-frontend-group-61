@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1><span>[</span>
+            <p>Методы массивов</p>
+            <span>]</span>
+        </h1>
+    </header>
+    <section>
+        <p>Исходный массив</p>
+        <div class="container" id="original">
+            <div class="color-box">45</div>
+            <div class="color-box">14</div>
+            <div class="color-box">7</div>
+            <div class="color-box">56</div>
+            <div class="color-box">21</div>
+            <div class="color-box">89</div>
+        </div>
+    </section>
+    <section>
+        <div class="command" onclick="makeMap()">.map()</div>
+        <div class="command" onclick="makeFilter()">.filter()</div>
+        <div class="command">.reduce()</div>
+        <div class="command" onclick="makeSlice()">.slice()</div>
+        <div class="command" onclick="makeReverse()">.reverse()</div>
+        <div class="command" onclick="makeSort()">.sort()</div>
+    </section>
+    <section>
+        <p>Результат</p>
+        <div class="container" id="result">
+            <div class="color-box">1</div>
+            <div class="color-box">2</div>
+            <div class="color-box">3</div>
+            <div class="color-box">4</div>
+            <div class="color-box">5</div>
+        </div>
+        <!-- Цветные блоки будут добавлены здесь с помощью JavaScript -->
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
